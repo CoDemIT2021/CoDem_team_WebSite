@@ -59,9 +59,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 155px;
+    margin-bottom: 120px;
 }
-    
+
 .logo-codem {
     display: flex;
     text-decoration: none;
@@ -113,8 +113,8 @@ body {
 }
     
 .contact-block-link:hover {
-    color: #261C2C;
-    background-color: #6E85B2;
+    color: #fff;
+    background-color: #0F0F41;
 }
     
 .hero {
@@ -141,13 +141,14 @@ body {
 .hero-btn {
     padding: 15px 34px;
     font-weight: 400;
-    color: #ED4C5C;
+    color: #0F0F41;
     font-size: 14px;
     background-color: #fff;
 }
     
 .hero-btn:hover {
-    background-color: #6E85B2;
+    color: #fff;
+    background-color: #0F0F41;
 }
 /*end of top_screen style*/
 
