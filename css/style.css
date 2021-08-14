@@ -376,3 +376,73 @@ body {
     color: #fff;
 }
 /*end of style contact form*/
+
+
+/* style footer section */
+.footer {
+    padding-top: 85px;
+    padding-bottom: 86px;
+    background-color: #FFDCC8;
+  }
+  
+  .footer-inner { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px
+  }
+  
+  .footer h3 {
+    margin: 0 0 33px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+  }
+  
+  .footer p {
+    margin: 0 0 25px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+  }
+  
+  .footer-services ul,
+  .footer-contacts ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-services ul a,
+  .footer-contacts ul a {
+    font-size: 12px;
+    line-height: 100%;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer-contacts li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-socials {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-socials li + li {
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-support-logos {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-support-logos a {
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+    text-decoration: none;
+  }
